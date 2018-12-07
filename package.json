@@ -1,7 +1,7 @@
 {
   "name": "react-lite",
   "version": "1.0.0",
-  "description": "A worse version of the popular React library",
+  "description": "A simplified version of the popular React library",
   "main": "index.js",
   "directories": {
     "lib": "lib"
