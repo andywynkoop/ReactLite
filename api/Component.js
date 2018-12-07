@@ -4,11 +4,11 @@ class Component {
   constructor(props) {
     this.props = props;
     this.state = this.state || {};
-    this.isMounted = false;
   }
 
   componentDidMount() {}
   componentDidUpdate() {}
+  componentWillUnmount() {}
 
   setState(partialState, callback = () => {}) {
     this.state = Object.assign({}, this.state, partialState);
