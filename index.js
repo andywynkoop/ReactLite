@@ -1,6 +1,6 @@
-import _render from './api/render.js';
-import _createElement from './api/createElement';
-import _Component from './api/Component';
+import _render from './lib/render.js';
+import _createElement from './lib/createElement';
+import _Component from './lib/Component';
 
 export const render = _render;
 export const createElement = _createElement;
